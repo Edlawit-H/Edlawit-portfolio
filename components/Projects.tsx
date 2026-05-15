@@ -9,9 +9,6 @@ import ProjectModal from "./ProjectModal";
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
-  const featured = projects.find((p) => p.featured)!;
-  const rest = projects.filter((p) => !p.featured);
-
   return (
     <section id="projects" className="py-24 bg-white dark:bg-gray-950">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

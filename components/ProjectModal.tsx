@@ -10,11 +10,9 @@ interface ProjectModalProps {
 }
 
 export default function ProjectModal({ project, onClose }: ProjectModalProps) {
-  const [imgError, setImgError] = useState(false);
+  const [imgErrorId, setImgErrorId] = useState<string | null>(null);
 
-  useEffect(() => {
-    setImgError(false);
-  }, [project]);
+  const isImgError = imgErrorId === project?.id;
 
   useEffect(() => {
     const handleKey = (e: KeyboardEvent) => {
@@ -57,14 +55,14 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
       <div className="relative z-10 w-full max-w-xl bg-gray-900 rounded-2xl border border-white/10 shadow-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-200">
         {/* Image */}
         <div className="relative h-48 sm:h-56">
-          {!imgError ? (
+          {!isImgError ? (
             <Image
               src={project.image}
               alt={project.title}
               fill
               sizes="(max-width: 768px) 100vw, 800px"
               className="object-cover"
-              onError={() => setImgError(true)}
+              onError={() => setImgErrorId(project.id)}
             />
           ) : (
             <div className={`w-full h-full bg-gradient-to-br ${gradient} flex items-center justify-center`}>

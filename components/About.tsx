@@ -1,4 +1,4 @@
-import { personal, skills } from "@/lib/data";
+import { personal } from "@/lib/data";
 
 export default function About() {
   return (

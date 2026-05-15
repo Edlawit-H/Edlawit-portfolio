@@ -7,6 +7,7 @@ export const personal = {
   email: "edlawithuluwork82@gmail.com",
   phone: "+251 969956776",
   github: "https://github.com/Edlawit-H",
+  linkedin: "https://www.linkedin.com/in/edlawit-huluwork-319056318",
   tagline:
     "Building modern web applications with clean UI and practical backend systems.",
   summary:
