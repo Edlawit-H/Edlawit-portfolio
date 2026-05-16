@@ -1,36 +1,32 @@
 # Edlawit Huluwork Abebe — Portfolio
 
-Personal portfolio website for **Edlawit Huluwork Abebe**, Full Stack Developer & Software Engineering Student based in Addis Ababa, Ethiopia.
+A professional, responsive portfolio showcasing full-stack projects and software engineering experience. Built with a focus on clean code, modern design, and performance.
 
-## Tech Stack
+**[🚀 View Live Portfolio](https://edlawit-portfolio-nine.vercel.app/)**
 
-- **Framework**: Next.js 16 (App Router)
-- **Styling**: Tailwind CSS v3
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js (App Router)
+- **Styling**: Tailwind CSS
 - **Language**: TypeScript
-- **Font**: Inter (Google Fonts)
+- **Deployment**: Vercel
 
-## Sections
+## 🌟 Key Features
 
-- Hero — name, title, tagline, CTA buttons
-- About — summary, skills badges, stats
-- Projects — 1 featured + 3 smaller cards with modal detail view
-- Experience — timeline layout
-- Certificates — grid with preview images
-- CV — download section
-- Contact — form UI + contact info
+- **Dark/Light Mode**: Smooth theme transitions.
+- **Project Showcase**: Interactive project cards with detailed modal views.
+- **Responsive Design**: Optimized for mobile, tablet, and desktop.
+- **Performance**: High Lighthouse scores for SEO and accessibility.
 
-## Getting Started
+## 💻 Local Development
+
+If you'd like to run this project locally:
 
 ```bash
+git clone https://github.com/Edlawit-H/Edlawit-portfolio.git
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view it.
-
-## Build
-
-```bash
-npm run build
-npm start
-```
+---
+Built with ❤️ by Edlawit Huluwork Abebe
