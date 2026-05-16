@@ -157,4 +157,9 @@ export const certificates: Certificate[] = [
     issuer: "Google Developer Group",
     image: "/images/certificates/GDG-React-Edlawit.png",
   },
+  {
+    title: "GDG Node.js Training Certificate",
+    issuer: "Google Developer Group",
+    image: "/images/certificates/GDG-Node-certificate.png",
+  },
 ];
